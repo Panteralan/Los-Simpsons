@@ -1,0 +1,158 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* Variables */
+
+:root {
+    --blanco: #fff;
+    --azul: #137abf;
+    --amarillo: #ffde00;
+    --negro: #000;
+}
+
+/* 
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+/* .madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ */
+
+
+/* Selectori universal */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Etiquetas */
+
+body {
+    background-color: var(--blanco);
+}
+
+header {
+    text-align: center;
+}
+
+header div figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+header div figure img {
+    width: 300px;   /* un tamaño seguro para probar */
+    height: auto;
+    object-fit: contain;
+}
+
+
+nav ul {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: "Madimi One", 
+    sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    /* Estilos de las cajas */
+    background-color: var(--blanco);
+    padding: 10px 120px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--azul);
+}
+
+nav ul li:hover {
+    background-color: var(--amarillo);
+
+}
+
+
+figure {
+    display: flex;
+    justify-content: center; 
+}
+
+figure img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+section div {
+    margin: 20px 100px;
+}
+
+section article {
+    margin: 20px 100px ;
+}
+
+h1 {
+    font-family: "Madimi One", 
+    sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 2px solid var(--azul);
+
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    margin: 10px 0px;
+}
+
+ul li {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    list-style-position: inside;
+}
+
+
+#diferenciado {
+    margin: 0px;
+}
+
+
+.pancarta {
+    text-align: center;
+    background-color: var(--azul);
+    margin: 0px;
+    padding: 20px;
+    color: var(--blanco);
+    background-size: cover;
+}
